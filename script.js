@@ -19,5 +19,6 @@ if(opened == false){
         } opened = false;
         document.getElementById("hero").style.filter = "blur(0px)";
         document.getElementById("nav").style.right = "-100%";
+        
      }
 }
