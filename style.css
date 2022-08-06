@@ -141,16 +141,15 @@ body{
 
 .section-one{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 150px;
     margin-left: 40px;
 }
 
 .section-one p{
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
     letter-spacing: 1px;
-    padding: 30px 0px;
+    padding: 30px 0px 13px;
     font-weight: 400;
     color: rgb(10, 97, 10);
     max-width: 400px  
