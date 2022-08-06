@@ -12,6 +12,7 @@ if(opened == false){
         
         document.getElementById("nav").style.right = "0px";
         document.getElementById("hero").style.filter = "blur(3px)";
+        document.getElementById("body").style.overflow = "hidden hidden";
      } else{
         for(j = 0; j< idList.length; j++){
                 idList[j].classList.remove(classList1[j]);
@@ -19,6 +20,7 @@ if(opened == false){
         } opened = false;
         document.getElementById("hero").style.filter = "blur(0px)";
         document.getElementById("nav").style.right = "-100%";
+        document.getElementById("body").style.overflow = "hidden auto";
         
      }
 }
