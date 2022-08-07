@@ -18,6 +18,8 @@ if(opened == false){
                 idList[j].classList.remove(classList1[j]);
                 idList[j].classList.add(classList2[j]);
         } opened = false;
+
+        
         document.getElementById("hero").style.filter = "blur(0px)";
         document.getElementById("nav").style.right = "-100%";
         document.getElementById("body").style.overflow = "hidden auto";

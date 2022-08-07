@@ -1,8 +1,4 @@
-
-body{
-    overflow: hidden auto;
-    
-}
+/* ROOT STYLE */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +7,12 @@ body{
     transition: 0.5s ease-in-out;
 }
 
+body{
+    overflow: hidden auto;
+    
+}
+/* END ROOT STYLE */
+/* BACKGROUND STYLE */
 .hero{
     background-image: linear-gradient(#ffffff9c,#ffffff9c,#ffffff9c), url("hero.jpg");
     filter: blur(0px);
@@ -24,6 +26,7 @@ body{
     transition: 0.5s;
 }
 
+/* BACKGROUND STYLE */
 .header{
     min-width: 100%;
     box-shadow: 0px 2px 10px rgb(183, 183, 183);
@@ -35,7 +38,8 @@ body{
     position: fixed;
     z-index: 100;
 }
-
+/* END BACKGROUND STYLE */
+/* HEADER STYLE */
 .logo a img{
     margin: 15px 0px 10px 10px;
     width: 50px;
@@ -59,7 +63,7 @@ body{
     top: 35px;
     cursor: pointer;
 }
-/* CLOSE MENU BAR */
+/* HEADER SECTION -- CLOSE MENU BAR */
 .top-bar-close{
     width: 20px;
     height: 1px;
@@ -96,7 +100,7 @@ body{
    
 }
 
-/* OPEN MENU BAR */
+/* HEADER SECTION - OPEN MENU BAR */
 
 .top-bar-open{
     width: 20px;
@@ -143,7 +147,8 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
-
+/* END HEADER STYLE */
+/* SECTION STYLE */
 .section-one{
     position: absolute;
     top: 150px;
@@ -194,3 +199,5 @@ body{
     /* border-radius: 10px; */
     
 }
+
+/* END SECTION STYLE */
