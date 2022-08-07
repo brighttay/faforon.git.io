@@ -4,12 +4,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    transition: 0.5s ease-in-out;
+   
 }
 
 body{
     overflow: hidden auto;
     
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #acaaaa;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #cdcdcd;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #979696;
 }
 /* END ROOT STYLE */
 /* BACKGROUND STYLE */
@@ -182,6 +201,7 @@ body{
     max-width: 150px;
     text-transform: uppercase;
     text-align: center;
+    transition: 0.5s;
     /* border-radius: 10px; */
 }
 
@@ -196,8 +216,17 @@ body{
     max-width: 150px;
     text-transform: uppercase;
     text-align: center;
+    transition: 0.5s;
     /* border-radius: 10px; */
     
+}
+
+.faforon-img{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    \
+    width: 200px;
 }
 
 /* END SECTION STYLE */
