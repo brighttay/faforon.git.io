@@ -57,6 +57,7 @@ body{
     position: fixed;
     z-index: 100;
 }
+
 /* END BACKGROUND STYLE */
 /* HEADER STYLE */
 .logo a img{
@@ -225,8 +226,14 @@ body{
     position: absolute;
     top: 300px;
     right: 150px;
-    \
     width: 200px;
+    filter:opacity(50%);
+    transition: 0.5s;
+
+}
+
+.faforon-img:hover{
+    filter:opacity(100%)
 }
 
 /* END SECTION STYLE */
