@@ -7,14 +7,9 @@
    
 }
 
-body{
-    overflow: hidden auto;
-    
-}
 
 ::-webkit-scrollbar{
     width: 10px;
-   
 }
 
 ::-webkit-scrollbar-thumb{
@@ -60,7 +55,7 @@ header{
     height: 80px;
     background-color: #ffffff;
     top:0px;
-    position: relative;
+    position: fixed;
     z-index: 100;
 }
 
@@ -76,10 +71,9 @@ header{
     position: absolute;
     right: -100%;
     top: -10px;
-    min-height: 500px;
+    min-height: 830px;
     transition: 0.5s;
     z-index: 200;
-    height: 100vh;
 }
 
 .hamburger{
