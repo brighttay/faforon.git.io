@@ -48,4 +48,18 @@
         color: #000000;
     }
 
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer .copyright{
+        margin-top: 60px;
+    }
+
+    
+    .footer .social{
+        margin-top: 60px;
+    }
+
 }
