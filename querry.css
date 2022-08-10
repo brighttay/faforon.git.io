@@ -1,4 +1,4 @@
-@media all and (min-width: 700px){
+@media all and (min-width: 1000px){
     .hamburger{
         display: none;
     }
@@ -48,18 +48,12 @@
         color: #000000;
     }
 
-    .footer{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .footer .copyright{
-        margin-top: 60px;
-    }
-
-    
-    .footer .social{
-        margin-top: 60px;
-    }
+ .faforon-banner{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    z-index: -100;
+ }
 
 }
