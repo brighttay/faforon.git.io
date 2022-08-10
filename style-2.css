@@ -1,6 +1,6 @@
 .section-contact{
     position: relative;
-    top: 110px;
+    top: 100px;
     margin-left: 0px;
     
 }
@@ -39,7 +39,7 @@ input[value="Submit"]{
     height: 30px;
     font-size: 20px;
     font-weight: 200;
-    margin-top: 10px;
+    margin-top: 5px;
     transition: 1s;
 }
 

@@ -9,8 +9,6 @@
 
 body{
     overflow: hidden auto;
-    white-space: nowrap;
-
 }
 
 ::-webkit-scrollbar{
