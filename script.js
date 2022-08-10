@@ -25,7 +25,4 @@ if(opened == false){
         document.getElementById("body").style.overflow = "hidden auto";
         
      }
-
-     
 }
-
