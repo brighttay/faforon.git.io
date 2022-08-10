@@ -7,6 +7,10 @@
    
 }
 
+body{
+    overflow: hidden auto;
+
+}
 
 ::-webkit-scrollbar{
     width: 10px;
@@ -15,10 +19,15 @@
 ::-webkit-scrollbar-thumb{
     background-color: #acaaaa;
     border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar-track{
     background-color: #cdcdcd;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 
@@ -33,7 +42,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    min-height: 600px;
+    min-height: 640px;
     position: absolute;
     top: 0px;
     z-index: -200;
@@ -171,7 +180,7 @@ header{
 /* SECTION STYLE */
 .section-one{
     position: relative;
-    top: 0px;
+    top: 150px;
     margin-left: 40px;
     
 }
@@ -241,7 +250,7 @@ header{
 
 .footer{
     position: absolute;
-    top: 620px;
+    top: 640px;
     width: 100%;
     padding: 50px;
     z-index: 1;
@@ -249,7 +258,7 @@ header{
     flex-direction: column;
     background-color: rgb(37, 72, 37);
     align-items: center;
-    height: 200px;
+    min-height: 200px;
 }
 
 .footer .social {
@@ -282,8 +291,9 @@ header{
 }
 
 .footer .social ul li a img:hover{
-    filter: grayscale(100%);
     padding: 2px;
     border: 1px solid #ffffff;
     border-radius: 20px;
 }
+
+/* CONTACT US */
