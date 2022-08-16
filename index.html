@@ -74,6 +74,12 @@
         </ul>
     </div>
 </div>
-<script src="script.js"></script>
+<script>
+    window.onload = () => {
+        let element = document.createElement("script");
+        element.src = "script.js";
+        document.body.appendChild(element);
+    }
+</script>
 </body>
 </html>
